@@ -10,7 +10,7 @@ import com.example.demo.entities.Student;
 import com.example.demo.services.StudentService;
 
 @RestController
-@RequestMapping("/students")
+@RequestMapping("api/students")
 public class StudentController {
     
     @Autowired
